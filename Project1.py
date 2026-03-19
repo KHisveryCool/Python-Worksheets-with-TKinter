@@ -23,8 +23,8 @@ window.mainloop()
 
 #Reflection
 
-#Q1) Which layout manager gives the most precise control? What is a disadvantage of using it?
-# Answer: Place is the best layout manager as it gives us the option to specify the x and y coordinates, the disadvantage of it, is that it doesn't respond to window resizing
+#Q1)What happens if you comment out window.mainloop() and run the program?
+# Answer: The program will exit and the window will close instantly
 
-#Q2)2.  What does pack_propagate(False) do? When would you need it?
-# Answer: Pack propogate stops automatic resizing and keeps the widget only to the size you set it to. we need for things that needs to be a fixedd size like a scrollbar
+#Q2)What are the two numbers in window.geometry('300x150')? What do they control?
+# Answer: These are height and width of the window, first one is the x coordinate and or width and second one is the y coordinate or height
